@@ -1,0 +1,14 @@
+.messages {
+	height: 100%;
+	margin: auto;
+	/*border: 1px solid white;*/
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #1976d2;
+
+}
+
+.messages-list {
+	list-style: none;
+	padding-left: 10px;
+}

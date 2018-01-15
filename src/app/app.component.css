@@ -1,0 +1,32 @@
+.title {
+	background-color: #1976d2;
+	height: 100px;
+	width: 100%;
+	font-size: 2rem;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+.container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #2196F3;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	height: 100%;
+}
+
+.centered {
+	margin-top: 50px;
+	height:70%;
+	width: 40%;
+	padding: 5px;
+
+}
+
+

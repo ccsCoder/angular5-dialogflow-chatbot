@@ -1,0 +1,11 @@
+<li class="message-item" #listItemRef>
+	<img [src]="message.avatar" class="avatar"/>
+	<div class="message-content">
+		{{message.content}}
+	</div>
+	<div class="timestamp">
+		<p>
+			at {{message.timestamp | date : 'dd:MM:yyyy'}}
+		</p>
+	</div>
+</li>

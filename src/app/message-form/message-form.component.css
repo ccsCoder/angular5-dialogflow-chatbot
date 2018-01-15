@@ -1,0 +1,29 @@
+.message-form {
+	padding:5px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	background-color: #1976d2;
+	height:30px;
+	box-sizing: border-box;
+
+}
+
+.message-form-input {
+	width:70%;
+	height:30px;
+	border-radius: 0;
+	border: 1px solid darkorange;
+}
+
+.message-form-button {
+	height:35px;
+	background-color: darkorange;
+	color: white;
+	width:20%;
+	border: 0;
+	/*background: none;*/
+	box-shadow: none;
+	border-radius: 0px;
+}
