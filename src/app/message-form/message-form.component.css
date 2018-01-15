@@ -1,29 +1,40 @@
 .message-form {
-	padding:5px;
 	width: 100%;
-	display: flex;
+  display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 	background-color: #1976d2;
-	height:30px;
 	box-sizing: border-box;
+  padding:5px;
+}
 
+.keyboard-icon {
+  height: 32px;
+  width:32px;
+  background-image: url(/assets/keyboard.png);
 }
 
 .message-form-input {
-	width:70%;
-	height:30px;
+	width:75%;
+  height:25px;
+  background-color: #1976d2;
 	border-radius: 0;
-	border: 1px solid darkorange;
+  border: 1px solid white;
+  color:white;
+}
+.message-form-input::placeholder {
+  color: gainsboro;
 }
 
+
 .message-form-button {
-	height:35px;
+  height:29px;
+  box-sizing: border-box;
 	background-color: darkorange;
-	color: white;
-	width:20%;
+  color: white;
+  font-weight: bold;
+	width:100px;
 	border: 0;
-	/*background: none;*/
 	box-shadow: none;
 	border-radius: 0px;
 }
