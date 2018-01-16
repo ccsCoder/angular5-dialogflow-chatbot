@@ -29,3 +29,16 @@ li.message-item >.timestamp {
 	font-style: italic;
 	align-self: flex-end;
 }
+
+@media only screen and (max-device-width: 480px) {
+  li.message-item > .message-content {
+    font-size: 0.9rem;
+    font-style: unset;
+  }
+
+  li.message-item > .timestamp {
+    display: none;
+  }
+
+}
+
